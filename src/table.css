@@ -1,0 +1,149 @@
+
+
+    /*! CSS Used from: https://xinfin.org/assets/css/bootstrap.min.css ; media=screen */
+@media screen{
+strong{font-weight:700;}
+img{border:0;}
+table{border-spacing:0;border-collapse:collapse;}
+td,th{padding:0;}
+@media print{
+*,:after,:before{color:#000!important;text-shadow:none!important;background:0 0!important;-webkit-box-shadow:none!important;box-shadow:none!important;}
+thead{display:table-header-group;}
+img,tr{page-break-inside:avoid;}
+img{max-width:100%!important;}
+}
+*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+:after,:before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+img{vertical-align:middle;}
+table{background-color:transparent;}
+th{text-align:left;}
+}
+/*! CSS Used from: https://xinfin.org/assets/css/style.css ; media=screen */
+@media screen{
+*{margin:0;padding:0;}
+table{width:100%;background-color:#fff;}
+th,td{font-weight:unset;padding-right:10px;}
+.comparison *{box-sizing:border-box;}
+.compare_btc_eth_xdc{max-width:940px;margin:0 auto;font-family:Muli,sans-serif;letter-spacing:1px;text-align:center;padding:10px;}
+.compare_btc_eth_xdc table{width:100%;border-collapse:collapse;border-spacing:0;table-layout:fixed;border-bottom:1px solid #296e8e;background:0 0;}
+.compare_btc_eth_xdc td,.compare_btc_eth_xdc th{border-right:1px solid #296e8e;border-bottom:1px solid #296e8e;empty-cells:show;padding:10px;}
+.compare_btc_eth_xdc tbody tr:nth-child(odd){display:none;}
+.compare_btc_eth_xdc .compare-row .description-head{color:#fff;font-size:11px;line-height:16px;padding:10px;border-left:1px solid #296e8e;}
+.compare_btc_eth_xdc .compare-row .bg_xdc{background:rgba(37,170,225,.2);}
+.compare_btc_eth_xdc .description-details{font-size:13px;color:rgba(255,255,255,.5);}
+.compare_btc_eth_xdc .description-details strong{font-weight:600;font-size:16px;color:rgba(255,255,255,.6);}
+.compare_btc_eth_xdc th{font-weight:400;text-align:center;padding:0;border-bottom:1px solid #296e8e;}
+.compare_btc_eth_xdc tr td:first-child{text-align:left;}
+.compare_btc_eth_xdc .tl{color:#fff;padding:10px;font-size:13px;border-right:1px solid #296e8e;border-bottom:0;}
+.compare_btc_eth_xdc .tl2{border-right:0;border-left:0;border-top-left-radius:3px;background:rgba(37,170,225,.1);}
+.compare_btc_eth_xdc .first{color:#fff;font-size:12px;line-height:18px;background:rgba(37,170,225,.3);border:0;border-left-color:rgba(37,170,225,.3);padding:10px 5px;}
+.compare_btc_eth_xdc .first span{font-weight:700;}
+.compare_btc_eth_xdc .second{color:#fff;font-size:12px;line-height:18px;background:rgba(37,170,225,.6);border-top-right-radius:3px;border:0;padding:10px 5px;border-radius:0;}
+.compare_btc_eth_xdc .second span{font-weight:700;}
+.compare_btc_eth_xdc .third{color:#fff;font-size:12px;line-height:18px;background:rgba(37,170,225,.9);border-top-right-radius:3px;border-right-color:rgba(37,170,225,.6);border:none;padding:10px 5px;}
+.compare_btc_eth_xdc .third span{font-weight:700;}
+.compare_btc_eth_xdc .criteria-info{padding:5px 15px;}
+.compare_btc_eth_xdc .criteria-head{color:#fff;background:rgba(37,170,225,.1);padding:5px 15px 30px;}
+.compare_btc_eth_xdc .criteria-info.bg_xdc{background:rgba(37,170,225,.2);}
+.compare_btc_eth_xdc .criteria-logo img{max-width:50px;max-height:50px;margin:5px auto;z-index:1;display:block;position:relative;}
+.compare_btc_eth_xdc .criteria-logo{color:#ff5406;}
+.compare_btc_eth_xdc .criteria-logo_desc{font-size:13px;color:rgba(255,255,255,.7);}
+@media (max-width:767px){
+.compare_btc_eth_xdc{margin-top:50px;}
+.compare_btc_eth_xdc td:first-child,.compare_btc_eth_xdc th:first-child{display:none;}
+.compare_btc_eth_xdc tbody tr:nth-child(odd){display:table-row;color:#fff;}
+.compare_btc_eth_xdc td,.compare_btc_eth_xdc th{border:1px solid #296e8e;line-height:20px;}
+.criteria-info{border-top:0!important;}
+.compare_btc_eth_xdc .description-head{background:rgba(37,170,225,.2);}
+.compare_btc_eth_xdc .criteria-info.bg_xdc{background:0 0;}
+.compare_btc_eth_xdc .compare-row .bg_xdc{background:0 0;}
+}
+@media (max-width:639px){
+.compare_btc_eth_xdc td,.compare_btc_eth_xdc th{padding:10px 5px;}
+.compare_btc_eth_xdc .hide-mobile{display:none;}
+}
+}
+/*! CSS Used fontfaces */
+@font-face{font-family:'Muli';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/muli/v22/7Auwp_0qiz-afT3GLRrX.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Muli';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/muli/v22/7Auwp_0qiz-afTzGLRrX.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Muli';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/muli/v22/7Auwp_0qiz-afTLGLQ.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Muli';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/muli/v22/7Auwp_0qiz-afT3GLRrX.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Muli';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/muli/v22/7Auwp_0qiz-afTzGLRrX.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Muli';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/muli/v22/7Auwp_0qiz-afTLGLQ.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Muli';font-style:normal;font-weight:600;font-display:swap;src:url(https://fonts.gstatic.com/s/muli/v22/7Auwp_0qiz-afT3GLRrX.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Muli';font-style:normal;font-weight:600;font-display:swap;src:url(https://fonts.gstatic.com/s/muli/v22/7Auwp_0qiz-afTzGLRrX.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Muli';font-style:normal;font-weight:600;font-display:swap;src:url(https://fonts.gstatic.com/s/muli/v22/7Auwp_0qiz-afTLGLQ.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Muli';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/muli/v22/7Auwp_0qiz-afT3GLRrX.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Muli';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/muli/v22/7Auwp_0qiz-afTzGLRrX.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Muli';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/muli/v22/7Auwp_0qiz-afTLGLQ.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Muli';font-style:normal;font-weight:800;font-display:swap;src:url(https://fonts.gstatic.com/s/muli/v22/7Auwp_0qiz-afT3GLRrX.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Muli';font-style:normal;font-weight:800;font-display:swap;src:url(https://fonts.gstatic.com/s/muli/v22/7Auwp_0qiz-afTzGLRrX.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Muli';font-style:normal;font-weight:800;font-display:swap;src:url(https://fonts.gstatic.com/s/muli/v22/7Auwp_0qiz-afTLGLQ.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Muli';font-style:normal;font-weight:900;font-display:swap;src:url(https://fonts.gstatic.com/s/muli/v22/7Auwp_0qiz-afT3GLRrX.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Muli';font-style:normal;font-weight:900;font-display:swap;src:url(https://fonts.gstatic.com/s/muli/v22/7Auwp_0qiz-afTzGLRrX.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Muli';font-style:normal;font-weight:900;font-display:swap;src:url(https://fonts.gstatic.com/s/muli/v22/7Auwp_0qiz-afTLGLQ.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+th.criteria-head {
+    background-color: #003663!important;
+  }
+  th.tl.tl2 {
+    background-color: #003663!important;
+  }
+  tr.compare-row {
+    background-color: #003663!important;
+  }
+  th.criteria-info {
+    background-color: #003663;
+  }
+  .compare_btc_eth_xdc .criteria-info.bg_xdc {
+    background: #074d7c!important;
+  }
+  th.first {
+    /* background-color: #3ab2e4!important; */
+    background-image: linear-gradient(to right,#25aae1,#0dd1ae,#01e074,#2bbbad)!important;
+  /* border: 2px solid transparent; */
+    padding-top: 10px!important;
+    margin-bottom: 10px!important;
+}
+th.second {
+    /* background-color: #3ab2e4!important; */
+    background-image: linear-gradient(to right,#25aae1,#0dd1ae,#01e074,#2bbbad)!important;
+  border: 2px solid transparent;
+    padding-top: 10px!important;
+    margin-bottom: 10px!important;
+}
+th.third {
+  /* background-color: #3ab2e4!important; */
+  background-image: linear-gradient(to right,#25aae1,#0dd1ae,#01e074,#2bbbad)!important;
+border: 2px solid transparent;
+  padding-top: 10px!important;
+  margin-bottom: 10px!important;
+}
+td.description-head {
+    padding-bottom: 35px!important;
+    padding-top: 35px!important;
+}
+th.first {
+    padding-bottom: 20px!important;
+    padding-top: 20px!important;
+}
+th.criteria-info {
+    padding-bottom: 20px!important;
+    padding-top: 20px!important;
+}
+  @media (max-width: 767px){
+.compare_btc_eth_xdc .description-head {
+    background: #074d7c;
+}
+td.description-head {
+  padding-bottom: 10px!important;
+  padding-top: 10px!important;
+}
+th.first {
+  padding-bottom: 0px!important;
+  padding-top: 0px!important;
+}
+th.criteria-info {
+  padding-bottom: 5px!important;
+  padding-top: 5px!important;
+}
+}
